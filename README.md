@@ -144,9 +144,9 @@ domain = Domain(domain='localhost', tenant=tenant, is_primary=True)
 domain.save()
 
 # Create a tenant for a new client
-tenant = Client(schema_name='smp1', name='SMP Negeri 1)
+tenant = Client(schema_name='maplehigh', name='Maple High School')
 tenant.save()
-domain = Domain(domain='smp1.localhost', tenant=tenant, is_primary=True)
+domain = Domain(domain='maplehigh.localhost', tenant=tenant, is_primary=True)
 domain.save()
 exit()
 ```
